@@ -1,0 +1,6 @@
+.vs
+*.sln
+Easy.vcxproj
+Easy.vcxproj.filters
+Easy.vcxproj.user
+x64
