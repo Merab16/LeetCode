@@ -2,7 +2,7 @@
 #include <iostream>
 
 
-#include "Solutions/Two_Sum.h"
+#include "Solutions/Palindrome_Number.h"
 
 template <typename T>
 std::ostream& operator<< (std::ostream& os, const std::vector<T>& v) {
@@ -19,8 +19,8 @@ std::ostream& operator<< (std::ostream& os, const std::vector<T>& v) {
 
 int main() {
 	Solution sol;
-	std::vector<int> v{2, 7, 11, 15};
-	std::cout << sol.twoSum(v, 9) << std::endl;
+	//std::vector<int> v{2, 7, 11, 15};
+	std::cout << sol.isPalindrome(101) << std::endl;
 
 
 	return 0;
