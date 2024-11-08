@@ -2,7 +2,7 @@
 #include <iostream>
 
 
-#include "Solutions/Problem_28.h"
+#include "Solutions/Problem_35.h"
 
 template <typename T>
 std::ostream& operator<< (std::ostream& os, const std::vector<T>& v) {
@@ -19,10 +19,11 @@ std::ostream& operator<< (std::ostream& os, const std::vector<T>& v) {
 
 int main() {
 	Solution sol;
+	std::vector<int> v{ 1,3,5,6 };
 	//std::vector<int> v{2, 7, 11, 15};
 	std::string str = "abcd";
 	std::string str1 = "cde";
-	std::cout << sol.strStr(str, str1) << std::endl;
+	std::cout << sol.searchInsert(v, 2) << std::endl;
 
 
 	return 0;
