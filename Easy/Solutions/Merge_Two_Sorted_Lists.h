@@ -20,16 +20,13 @@ public:
 		if (list1 == nullptr && list2 == nullptr) return {};
 
 		if (list1 == nullptr) {
-			res_head = list2;
-			res_curr = list2;
-			list2 = list2->next;
+			return list2;
 		}
-		else if (list2 == nullptr) {
-			res_head = list1;
-			res_curr = list1;
-			list1 = list1->next;
+		if (list2 == nullptr) {
+			return list1;
 		}
-		else if (list1->val < list2->val) {
+
+		if (list1->val < list2->val) {
 			res_head = list1;
 			res_curr = list1;
 			list1 = list1->next;
