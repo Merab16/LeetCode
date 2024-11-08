@@ -2,7 +2,7 @@
 #include <iostream>
 
 
-#include "Solutions/Problem_58.h"
+#include "Solutions/Problem_66.h"
 
 template <typename T>
 std::ostream& operator<< (std::ostream& os, const std::vector<T>& v) {
@@ -19,11 +19,11 @@ std::ostream& operator<< (std::ostream& os, const std::vector<T>& v) {
 
 int main() {
 	Solution sol;
-	std::vector<int> v{ 1,3,5,6 };
+	std::vector<int> v{ 9, 9, 9, 9 };
 	//std::vector<int> v{2, 7, 11, 15};
 	std::string str = " abcdsyfsg  sjfhsf ";
 	std::string str1 = "cde";
-	std::cout << sol.lengthOfLastWord(str) << std::endl;
+	std::cout << sol.plusOne(v) << std::endl;
 
 
 	return 0;
