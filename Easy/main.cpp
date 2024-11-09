@@ -2,7 +2,7 @@
 #include <iostream>
 
 
-#include "Solutions/Problem_69.h"
+#include "Solutions/Problem_70.h"
 
 template <typename T>
 std::ostream& operator<< (std::ostream& os, const std::vector<T>& v) {
@@ -23,7 +23,7 @@ int main() {
 	//std::vector<int> v{2, 7, 11, 15};
 	std::string str = "110010";
 	std::string str1 = "10111";
-	std::cout << sol.mySqrt(63) << std::endl;
+	std::cout << sol.climbStairs(35) << std::endl;
 
 
 	return 0;
