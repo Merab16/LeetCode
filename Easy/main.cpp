@@ -2,7 +2,7 @@
 #include <iostream>
 
 
-#include "Solutions/Problem_66.h"
+#include "Solutions/Problem_67.h"
 
 template <typename T>
 std::ostream& operator<< (std::ostream& os, const std::vector<T>& v) {
@@ -21,9 +21,9 @@ int main() {
 	Solution sol;
 	std::vector<int> v{ 9, 9, 9, 9 };
 	//std::vector<int> v{2, 7, 11, 15};
-	std::string str = " abcdsyfsg  sjfhsf ";
-	std::string str1 = "cde";
-	std::cout << sol.plusOne(v) << std::endl;
+	std::string str = "110010";
+	std::string str1 = "10111";
+	std::cout << sol.addBinary(str, str1) << std::endl;
 
 
 	return 0;
